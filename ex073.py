@@ -1,0 +1,11 @@
+brasileirao = 'Botafogo', 'Palmeiras', 'Flamengo', 'Atlético-MG', 'Fluminense', 'Grêmio', 'Athletico-PR', 'São Paulo', 'Cruzeiro', 'Internacional', 'Fortaleza', 'Red Bull Bragantino', 'Santos', 'Cuiabá', 'Bahia','Corinthians', 'Goiás','América-MG', 'Vasco', 'Coritiba'
+print("=+=+"*20)
+print(brasileirao)
+print("=+=+"*20)
+print(f"Os cincos primeiros colocados são: {brasileirao[:5]}")
+print("=+=+"*20)
+print(f"OS 4 últimos: {brasileirao[16:]}")
+print(f"=+=+"*20)
+print(f"Ordem alfabética: {sorted(brasileirao)}")
+print("=+=+"*20)
+print(f"A posição do São Paulo é a: {brasileirao.index('São Paulo') + 1}º")
